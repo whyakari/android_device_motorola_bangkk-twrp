@@ -37,3 +37,6 @@ PRODUCT_NAME := twrp_bangkk
 PRODUCT_BRAND := motorola
 PRODUCT_MODEL := moto g(84) 5g
 PRODUCT_MANUFACTURER := motorola
+
+# build all the partition tools
+OF_ENABLE_ALL_PARTITION_TOOLS := 1
