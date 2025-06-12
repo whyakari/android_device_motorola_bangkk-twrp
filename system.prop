@@ -1,2 +1,5 @@
 # Battery Property
 ro.charger.enable_suspend=1
+
+# USB
+ro.sys.usb.storage.type=mtp
