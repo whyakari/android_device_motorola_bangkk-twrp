@@ -1,4 +1,4 @@
-# TWRP Device configuration for Motorola Moto G84 5G
+# Orange-Fox Device configuration for Motorola Moto G84 5G
 
 ## Device specification
 
