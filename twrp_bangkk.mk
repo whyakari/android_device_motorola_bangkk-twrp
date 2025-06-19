@@ -28,8 +28,12 @@ $(call inherit-product, device/motorola/bangkk/device.mk)
 # Inherit some common TWRP stuff.
 $(call inherit-product, vendor/twrp/config/common.mk)
 
+# Inherit some OFOX stuff.
+$(call inherit-product, $(DEVICE_PATH)/fox_bangkk.mk)
+
 # Release name
 PRODUCT_RELEASE_NAME := bangkk
+DEVICE_PATH := device/motorola/$(PRODUCT_RELEASE_NAME)
 
 # Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := bangkk
@@ -37,6 +41,3 @@ PRODUCT_NAME := twrp_bangkk
 PRODUCT_BRAND := motorola
 PRODUCT_MODEL := moto g(84) 5g
 PRODUCT_MANUFACTURER := motorola
-
-# build all the partition tools
-OF_ENABLE_ALL_PARTITION_TOOLS := 1
