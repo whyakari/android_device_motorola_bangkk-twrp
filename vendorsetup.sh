@@ -6,6 +6,6 @@ export FOX_VIRTUAL_AB_DEVICE=1
 export OF_FORCE_PREBUILT_KERNEL=1
 export FOX_BUILD_DEVICE=bangkk
 
-export FOX_VERSION="R12.1"
-export FOX_VARIANT="A14"
-export FOX_BUILD_TYPE="Stable"
+# export FOX_VERSION="R12.1"
+# export FOX_VARIANT="A14"
+# export FOX_BUILD_TYPE="Stable"
