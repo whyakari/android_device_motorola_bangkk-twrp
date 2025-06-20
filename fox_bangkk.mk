@@ -2,10 +2,6 @@
 ##### OrangeFox specific build flags #####
 ##########################################
 
-# Maintainer
-# FOX_MAINTAINER_PATCH_VERSION := 1
-# OF_MAINTAINER := "AkariOficial"
-
 OF_SCREEN_H=2340
 OF_STATUS_H=100
 OF_STATUS_INDENT_LEFT=48
