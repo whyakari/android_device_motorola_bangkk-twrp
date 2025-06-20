@@ -3,8 +3,8 @@
 ##########################################
 
 # Maintainer
-FOX_MAINTAINER_PATCH_VERSION := 1
-OF_MAINTAINER := "AkariOficial"
+# FOX_MAINTAINER_PATCH_VERSION := 1
+# OF_MAINTAINER := "AkariOficial"
 
 OF_SCREEN_H=2340
 OF_STATUS_H=100
